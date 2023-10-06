@@ -1,0 +1,74 @@
+.photo{
+    width: 100%;
+    height: 30%;
+}
+
+#box{
+    width: 50%;
+    text-align: center;
+    position:absolute;
+    top: 0;
+    left: 4;
+    
+}
+.img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    width: 50px;
+
+}
+body{
+    background-image: url("pic1.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.contain{
+    /* position: absolute; */
+    /* top: -40vh; */
+    /* left: 60vw; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    color: chocolate;
+    font-size: smaller;
+}
+.phagoda{
+    width: 20%;
+
+}
+h1{
+    margin:0 ;
+    font-size: large;
+    font-weight: 300;
+}
+/* .btn{
+   width: 100px; 
+   height: 30px;
+   background-color: chocolate;
+   border-style: none;
+   color: beige;
+   font-weight: 200; */
+   /* box-shadow: none; */
+   /* transform: translateY(5px);
+} */
+input{
+  width: 40%;
+  /* border: 1; */
+  border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  /* /* padding-left: 10px; */
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  height: 30px;
+  
+}
